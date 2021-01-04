@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import './variables.css';
+@import './reset.css';
+@import './elements.css';
+@import './layout.css';
+@import './responsive.css';
+
+
+.controls {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 15px;
+}
+
+.dot {
+  fill: #1a237e;
+  fill-opacity: 0.3;
+  stroke: #1a237e;
+  stroke-width: 1;
+  vector-effect: non-scaling-stroke;
+}

@@ -1,0 +1,24 @@
+/* colors */
+:root {
+  --primary: white;
+  --secondary: #333;
+  --blue: #4070F4;
+}
+
+/* margins */
+:root {
+  --padding-lg: 2rem;
+  --padding-md: 1rem;
+  --padding-sm: .5rem;
+  --margin-lg: 2rem;
+  --margin-md: 1rem;
+  --margin-sm: .5rem;
+}
+
+/* fonts */
+:root {
+  --font-main: 'Poppins', sans-serif;
+  --font-lg: 2rem;
+  --font-md: 1rem;
+  --font-sm: .5rem;
+}

@@ -1,0 +1,24 @@
+.btn {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.btn:hover {
+  opacity: .7;
+  transition: opacity 1s;
+  cursor: pointer;
+}
+
+.btn__blue {
+  background: var(--blue);
+  color: var(--primary);
+}
+
+.moon {
+  transform: rotate(-30deg);
+  max-height: 20px;
+  cursor: pointer;
+}

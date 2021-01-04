@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Website</title>
+  <link rel="stylesheet"
+    href="./assets/css/styles.css">
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css'
+    rel='stylesheet'>
+
+</head>
+
+<body>
+
+  <header class="header">
+    <nav class="nav grid">
+      <div class="nav__left">
+        <li class="nav__item">Luke</li>
+      </div>
+      <div class="nav__right">
+        <ul class="grid">
+          <li class="nav__item active"><a href="">Home</a></li>
+          <li class="nav__item"><a href="">About</a></li>
+          <li class="nav__item"><a href="">Skills</a></li>
+          <li class="nav__item"><a href="">Work</a></li>
+          <li class="nav__item"><a href="">Contact</a></li>
+          <li class="nav__item">
+            <!-- <img class="moon"
+              src="./assets/img/moon.svg"
+              alt=""> -->
+            <svg class="moon"
+              width="25"
+              height="50"
+              viewBox="0 0 50 50"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M12.5 25C12.5 38.8071 25 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C25 0 12.5 11.1929 12.5 25Z"
+                fill="#EFC83E" />
+            </svg>
+          </li>
+        </ul>
+      </div>
+      <div class="nav__toggle"
+        id="nav-toggle">
+        <i class="bx bx-menu nav__item"></i>
+      </div>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="home">
+      <div class="home__grtng">
+        <h1>
+          Hi, <br>
+          I'm <span class="home__grtng__blue">Luke</span>,
+          Web Designer.
+        </h1>
+        <p>
+          <button class="btn btn__blue">Contact</button>
+        </p>
+
+      </div>
+      <div class="home__img">
+        <svg id="svg"
+          viewBox="0 0 1000 1000">
+          <image x="0"
+            y="0"
+            width="100%"
+            height="100%"
+            xlink:href="https://codepenbucket1.s3.amazonaws.com/Mask+Group.png"
+            clip-path="url(#blobmasking)" />
+          <clipPath id="blobmasking">
+            <path id="blob"></path>
+          </clipPath>
+        </svg>
+
+      </div>
+      <div class="home__social">
+        <a href=""
+          class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+        <a href=""
+          class="home__social-icon"><i class='bx bxl-behance'></i></a>
+        <a href=""
+          class="home__social-icon"><i class='bx bxl-github'></i></a>
+      </div>
+    </section>
+    <!-- 
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section> 
+    -->
+  </main>
+  <footer></footer>
+
+  <script src="./assets/js/index.js"
+    type="module"
+    defer></script>
+</body>
+
+</html>
