@@ -25,6 +25,11 @@
   align-items: center;
 }
 
+.nav__item.toggle {
+  padding: 0;
+  
+}
+
 .nav__item a {
   color: var(--secondary);
 }

@@ -18,7 +18,7 @@
 }
 
 .moon {
-  transform: rotate(-30deg);
-  max-height: 20px;
+  /* transform: rotate(-30deg); */
+  max-height: 30px;
   cursor: pointer;
 }
