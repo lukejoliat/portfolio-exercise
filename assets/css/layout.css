@@ -57,8 +57,16 @@
   left: 0;
 }
 
+.nav__item:nth-last-child(2) {
+  margin-right: 0;
+}
+
 .nav__left {
   flex: 1;
+}
+
+.nav__left > * {
+  padding-left: 0;
 }
 
 .main {
